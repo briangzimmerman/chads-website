@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('/fonts/Lato/Lato-Regular.ttf');
+}
+
+*, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato';
+    color: black;
+    flex-shrink: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+#main_container {
+    width: 100vw;
+    position: relative;
+    top: 85px;
+    left: 0;
+    height: calc(100vh - 85px);
+    overflow-y: auto;
+}
+
+#runway {
+    max-width: 1190px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
