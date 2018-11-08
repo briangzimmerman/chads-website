@@ -18,13 +18,13 @@
 
 .nav_links a {
     text-decoration: none;
-    border-bottom: 1px solid transparent;
-    transition: border-color 0.2s;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s;
 }
 
-.nav_links a:hover {
+.nav_links a:hover, .nav_links a.current {
     border-color: black;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .overlay.show {

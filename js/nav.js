@@ -13,20 +13,23 @@ $('#main_container').scroll(function() {
     }
 })
 
+switch(window.location.pathname) {
+    case '/':
+    case '/index.php':
+        $('.about_me', $header).addClass('current');
+        break;
+    case '/skills.php':
+        $('.skills', $header).addClass('current');
+        break;
+    case '/projects.php':
+        $('.projects', $header).addClass('current');
+        break;
+    case '/contact.php':
+        $('.contact', $header).addClass('current');
+        break;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-//-------------------- Functions ------------------
+//-------------------------------- Functions -----------------------------------
 
 function toggleSlide() {
     $slide_menu.toggleClass('out');
