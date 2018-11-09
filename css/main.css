@@ -10,6 +10,7 @@
     font-family: 'Lato';
     color: black;
     flex-shrink: 0;
+    font-size: 16px;
 }
 
 body {
@@ -23,6 +24,7 @@ body {
     left: 0;
     height: calc(100vh - 85px);
     overflow-y: auto;
+    padding: 20px;
 }
 
 #runway {

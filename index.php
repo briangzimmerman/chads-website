@@ -6,10 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel='stylesheet' href='/css/main.css'>
     <link rel='stylesheet' href='/css/nav.css'>
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico"/>
     <title>About Me</title>
 </head>
 <body>
-    <?=file_get_contents(__DIR__ . '/html/nav.html');?>
+    <?php include(__DIR__ . '/html/nav.php'); ?>
 
     <div id='main_container'>
         <div id='runway'>

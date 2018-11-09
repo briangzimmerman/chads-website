@@ -2,9 +2,12 @@ var $header = $('header');
 var $hambuger = $('.hamburger', $header);
 var $slide_menu = $('.slidein_links', $header);
 var $overlay = $('.overlay');
+var $close = $('#close', $slide_menu);
 
 $hambuger.click(toggleSlide);
 $overlay.click(toggleSlide);
+$close.click(toggleSlide);
+
 $('#main_container').scroll(function() {
     if($(this).scrollTop()) {
         $header.addClass('scrolling');
