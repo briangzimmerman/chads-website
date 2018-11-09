@@ -10,7 +10,7 @@
     font-family: 'Lato';
     color: black;
     flex-shrink: 0;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 body {
@@ -32,4 +32,23 @@ body {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: rgba(0,0,0,0.1);
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  background: rgba(0,0,0,0.2);
+}
+::-webkit-scrollbar-thumb:hover{
+    background: rgba(0,0,0,0.4);
+}
+::-webkit-scrollbar-thumb:active{
+    background: rgba(0,0,0,.9);
 }

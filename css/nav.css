@@ -27,7 +27,7 @@
     /* align-items: center; */
 }
 
-.nav_links a:hover {
+.nav_links a:not(.current):hover {
     border-color: #989898;
 }
 
@@ -55,6 +55,10 @@ header.scrolling {
 
 .expanded_links.nav_links {
     display: none;
+}
+
+.expanded_links.nav_links a {
+    font-size: 105%;
 }
 
 .expanded_links.nav_links li:not(:first-child) {
