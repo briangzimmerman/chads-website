@@ -8,7 +8,7 @@ $hambuger.click(toggleSlide);
 $overlay.click(toggleSlide);
 $close.click(toggleSlide);
 
-$('#main_container').scroll(function() {
+$('main').scroll(function() {
     if($(this).scrollTop()) {
         $header.addClass('scrolling');
     } else {
