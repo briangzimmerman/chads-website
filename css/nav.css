@@ -62,7 +62,7 @@ header.scrolling {
 }
 
 .expanded_links.nav_links li:not(:first-child) {
-    margin-left: 10px;
+    margin-left: 25px;
 }
 
 .hamburger div {
@@ -145,7 +145,7 @@ header > .headshot {
     font-size: 130%;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 500px) {
     .slidein_links, .hamburger, .overlay.show, #title {
         display: none;
     }
@@ -156,6 +156,8 @@ header > .headshot {
 
     .expanded_links.nav_links {
         display: flex;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     header > .headshot {
