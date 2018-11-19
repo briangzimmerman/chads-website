@@ -1,0 +1,38 @@
+#about_container {
+    display: flex;
+    /* justify-content: space-evenly; */
+    justify-content: center;
+    align-items: center;
+    line-height: 1.4em;
+}
+
+#about_container .headshot {
+    width: 30%;
+    height: auto;
+
+    display: none;
+}
+
+#about_container .title {
+    display: none;
+}
+
+#about_text {
+    /* width: 55%; */
+    width: 100%;
+    text-align: left;
+}
+
+@media screen and (min-width: 500px) {
+    #about_container .headshot, #about_container .title {
+        display: block;
+    }
+
+    #about_container {
+        justify-content: space-around;
+    }
+
+    #about_text {
+        width: 55%;
+    }
+}
